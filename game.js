@@ -76,8 +76,8 @@ const game = {
   over: false,
   won: false,
   score: 0,
-  lives: 3,
-  timeLeft: 120,
+  lives: 5,
+  timeLeft: 180,
   lastTimestamp: 0,
   messageTimer: 0,
 };
@@ -95,8 +95,8 @@ function resetGame() {
   game.over = false;
   game.won = false;
   game.score = 0;
-  game.lives = 3;
-  game.timeLeft = 120;
+  game.lives = 5;
+  game.timeLeft = 180;
   game.messageTimer = 0;
   player.x = 70;
   player.y = 400;
@@ -131,7 +131,7 @@ function loseLife() {
     game.lives = 0;
     game.over = true;
     game.started = false;
-    messageEl.textContent = "Game over! Press Restart to try again.";
+    messageEl.textContent = "Game Over! Press Restart to try again.";
   } else {
     player.x = 60;
     player.y = 390;
