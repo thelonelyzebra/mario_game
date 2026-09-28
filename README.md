@@ -24,3 +24,5 @@ http://localhost:8000
 ## Objective
 
 Collect coins, avoid enemies, and reach the flag before time runs out.
+
+ETH: 0x2F6B79c8e1e51A760Ef7930b40eEF7d668098328
